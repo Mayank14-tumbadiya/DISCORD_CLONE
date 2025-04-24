@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width:1072px) and (max-width:1250px) {
+    .navmenu{
+        margin-left: 20px;
+    }
+    .home-loginbtn{
+        display: block;
+        min-width: 51px;
+        margin-left: 34px;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1110px){
+    #home{
+        min-width: 1148px;
+    }
+    .h-logo{
+        margin-right: 18px;
+        margin-bottom: 9px;
+        background-color: rgb(67, 67, 246)
+    }
+    .navmenu{
+        margin: 10px;
+    }
+    .home-loginbtn{
+        display: block;
+        min-width: 51px;
+        margin-left: 20px;
+        margin-bottom: 9px;
+    }
+    .menubar{
+        background-color: rgb(67, 67, 246);
+        min-width: 1148px;
+    }
+    .section-7{
+        display: flex;
+        flex-direction: column;
+        margin-left: 280px;
+    }
+    .continue-line{
+        min-width: 1148px;
+    }
+    .footer{
+        min-width: 1148px;
+    }
+    .main{
+        padding: 74px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+    #home{
+        min-width: 1129px;
+        min-height: 500px;
+    }
+    .continue-line{
+        min-width: 1129px;
+    }
+    .footer{
+        min-width: 1129px;
+    }
+    .section-7{
+        display: flex;
+        flex-direction: column;
+        margin-left: 280px;
+        min-width: 500px;
+    }
+    .main{
+        padding: 74px;
+        margin-top: 20px;
+    }
+    .menubar{
+        background-color: rgb(67, 67, 246);
+        min-width: 1129px;
+    }
+    .home-loginbtn{
+        display: block;
+        min-width: 51px;
+        margin-left: 20px;
+        /* margin-bottom: 9px; */
+    }
+    .navmenu{
+        margin: 0px 25px
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:600px){
+    #home{
+        min-width: 1108px;
+        min-height: 500px;
+    }
+    .menubar{
+        background-color: rgb(67, 67, 246);
+        min-width: 1108px;
+    }
+    .footer{
+        min-width: 1108px;
+    }
+    .main{
+        padding-left: 48px;
+        margin-top: 20px;
+    }
+    .continue-line{
+        min-width: 1108px;
+    }
+    .section-7{
+        display: flex;
+        flex-direction: column;
+        margin-left: 280px;
+        min-width: 500px;
+    }
+    .home-loginbtn{
+        display: block;
+        min-width: 40px;
+        margin-left: 20px;
+        /* margin-bottom: 9px; */
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:300px){
+    #home{
+        min-width: 1083px;
+        min-height: 500px;
+    }
+    .menubar{
+        background-color: rgb(67, 67, 246);
+        min-width: 1083px;
+    }
+    .footer{
+        min-width: 1083px;
+    }
+    .main{
+        padding-left: 28px;
+        margin-top: 20px;
+    }
+    .continue-line{
+        min-width: 1083px;
+    }
+    .footer{
+        min-width: 1083px;
+    }
+    .section-7{
+        display: flex;
+        flex-direction: column;
+        margin-left: 280px;
+        min-width: 500px;
+    }
+    .home-loginbtn{
+        display: block;
+        min-width: 40px;
+        margin-left: 6px;
+    }
+    .navmenu{
+        margin: 0px 20px;
+    }
+}
